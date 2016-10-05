@@ -22,7 +22,7 @@
         <longProp name="ThreadGroup.start_time">1475637909000</longProp>
         <longProp name="ThreadGroup.end_time">1475637909000</longProp>
         <boolProp name="ThreadGroup.scheduler">true</boolProp>
-        <stringProp name="ThreadGroup.duration">600</stringProp>
+        <stringProp name="ThreadGroup.duration">300</stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
@@ -2336,7 +2336,7 @@
         <ConstantThroughputTimer guiclass="TestBeanGUI" testclass="ConstantThroughputTimer" testname="Constant Throughput Timer" enabled="true">
           <doubleProp>
             <name>throughput</name>
-            <value>1800.0</value>
+            <value>900.0</value>
             <savedValue>0.0</savedValue>
           </doubleProp>
           <intProp name="calcMode">1</intProp>
